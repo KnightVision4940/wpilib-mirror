@@ -5,7 +5,7 @@
   <!-- Load Tasks -->
   <taskdef resource="net/sf/antcontrib/antlib.xml">
     <classpath>
-      <pathelement location="${wpilib.ant.dir}/ant-contrib.jar"/>
+      <pathelement location="${wpilib.lib}/junit-4.12.jar"/>
     </classpath>
   </taskdef>
   
@@ -15,7 +15,7 @@
   <taskdef resource="net/jtools/classloadertask/antlib.xml" classpath="${classloadertask.jar}"/>
   <classloader loader="system" classpath="${jsch.jar}"/>
   
-<property name="ant.test.lib" value="${wpilib.lib.dir}/ant-junit-1.9.6.jar"/>
+  <property name="ant.test.lib" value="${wpilib.lib}/ant-junit-1.9.6.jar"/>
   <property name="report.dir"   value="report"/>
   <property name="junit.out.dir.xml"  value="${report.dir}/junit/xml"/>
   <property name="junit.out.dir.html" value="${report.dir}/junit/html"/>

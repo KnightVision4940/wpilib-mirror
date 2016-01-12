@@ -84,7 +84,7 @@
         <delete dir="${junit.out.dir.xml}"/>
         <mkdir  dir="${junit.out.dir.xml}"/>
         <junit printsummary="yes" haltonfailure="no">
-            <classpath refid="classpath.test"/>
+            <classpath refid="junit.class.path"/>
             <formatter type="xml"/>
             <batchtest fork="yes" todir="${junit.out.dir.xml}">
                 <fileset dir="${src.dir}" includes="**/*Test.java"/>

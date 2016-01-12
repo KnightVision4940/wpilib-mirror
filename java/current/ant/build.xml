@@ -9,6 +9,10 @@
       <pathelement location="${wpilib.ant.dir}/junit-4.12.jar"/>
     </classpath>
   </taskdef>
+  
+    <path id ="junit.class.path">
+    <pathelement location="${wpilib.ant.dir}/junit-4.12.jar"/>
+  </path>
   <taskdef resource="net/jtools/classloadertask/antlib.xml" classpath="${classloadertask.jar}"/>
   <classloader loader="system" classpath="${jsch.jar}"/>
   

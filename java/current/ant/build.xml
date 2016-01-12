@@ -6,6 +6,7 @@
   <taskdef resource="net/sf/antcontrib/antlib.xml">
     <classpath>
       <pathelement location="${wpilib.ant.dir}/ant-contrib.jar"/>
+      <pathelement location="${wpilib.ant.dir}/junit-4.12.jar"/>
     </classpath>
   </taskdef>
   <taskdef resource="net/jtools/classloadertask/antlib.xml" classpath="${classloadertask.jar}"/>
